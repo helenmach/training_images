@@ -129,7 +129,7 @@ def main():
         plt.figure(figsize=(10, 10))
         plt.imshow(numeric_classified_image, cmap='tab20', vmin=0, vmax=len(unique_labels) - 1)  # ajuste vmin e vmax conforme necessário
         plt.colorbar(label='Classified')
-        plt.title('Classified NDVI Image')
+        plt.title('Classified Image')
         plt.axis('off')
         plt.show()
 
